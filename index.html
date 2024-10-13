@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+     -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper sign-in" id="signin">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="text" id="login-username" required name="name">
+                    <label for="login-username">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="login-password" required>
+                    <label for="login-password">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn" id="btn1">Login</button>
+                <div class="sign-link">
+                    <p>Don't have an account? <a href="#signup" class="signUp-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-wrapper sign-up" id="signup">
+            <form action="">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input type="text" id="signup-username" required>
+                    <label for="signup-username">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="signup-email" required>
+                    <label for="signup-email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="signup-password" required>
+                    <label for="signup-password">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn" id="btn2">Sign Up</button>
+                <div class="sign-link">
+                    <p>Already have an account? <a href="#signin" class="signIn-link">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="bg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
